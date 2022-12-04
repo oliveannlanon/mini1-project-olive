@@ -9,7 +9,7 @@
 .background {
     width: 100%;
     height: 200vh;
-    background-image:url(images/background.jpg) ;
+    background-image:url(./images/background.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -65,7 +65,7 @@ section {
 .left {
     width: 50%;
     height: 600px;
-    background: url(images/Eternal.png) no-repeat center / cover;
+    background: url(./images/Eternal.png) no-repeat center / cover;
     border-radius: 8px;
 }
 
