@@ -35,7 +35,7 @@ body {
 
 .logo {
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     width: 75%;
     height:18% ;
     align-items: center;
@@ -73,7 +73,6 @@ section {
 }
 
 .container__box {
-    width: 100%;
     max-width: 100%;
     margin: 0 auto;
     display: flex;
@@ -83,7 +82,7 @@ section {
 }
 
 .left {
-    width: 50%;
+    width: 60%;
     height: 600px;
     background: url(./images/Eternal.png) no-repeat center / cover;
     border-radius: 8px;
