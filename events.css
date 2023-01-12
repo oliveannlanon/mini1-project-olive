@@ -12,10 +12,23 @@ body {
 
 .background {
     width: 100%;
-    height: 220vh;
+    height: 200vh;
     background-image:url(./images/background.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.box__left {
+    border-style:ridge;
+    display: inline-block;
+    padding: 40px 20px 267px;
+    background-color:rgba(245, 245, 245, 0.253);
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 20px;
+    text-decoration-color: black;
+    align-items: center;
+    
 }
 
 .logo {
@@ -30,8 +43,7 @@ body {
 
 .col-7 {
     
-    margin-top: 2rem;
-    padding-top: 4rem;
+    margin-top: 50px;
     margin-left: 300px;
     color:rgb(8, 8, 8);
     font-size: 20px;
@@ -69,6 +81,7 @@ nav ul li a {
     display: block;
   }
 
+
 .navbar {
     max-width: 110rem;
     background-color: rgb(48, 48, 49);
@@ -91,7 +104,7 @@ nav ul li a {
 }
 
 .sub-header {
-    background-image: url(./images/autumn.jpg);
+    background-image: url(./images/events.jpg);
     width: 85.5%;
     height: 15rem;
     align-items: center;
@@ -101,59 +114,54 @@ nav ul li a {
 }
 
 .contact {
-    background-color: rgba(250, 152, 114, 0.705);
-    border-color: black;
-    box-shadow: 5px black;
+    background-color: rgb(250, 178, 112);
     width: 85.5%;
     height: 5rem;
     align-items: center;
     margin-top: 2rem;
     margin-left: 7rem; 
-    
 }
 
 h1 {
     color: rgb(61, 60, 60);
-    margin-left: 1rem;
+    margin-left: 2rem;
     padding-top: 1rem;
-}
-
-
-.button {
-    max-width: 10rem;
-    font-size: 20px;
-    background-color: rgb(48, 48, 49);
-    padding-left: 4rem;
-    padding-top: 1rem;
-    padding-right: 4rem;
-    padding-bottom: 1rem;
-    margin-left: 37rem;
-    color:azure;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-}
-
-.button:hover, .button:focus, .button:active{
-    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 .container_2 {
     background-color: rgba(255, 255, 255, 0.514);
-    width: 85%;
-    height:120vh;
+    width: 100%;
+    height:100vh;
     align-items: center;
     margin-top: 3rem;
+    margin-left: 5px; 
+}
+
+.events {
+    background-color: rgb(245, 247, 134);
+    width: 85.5%;
+    height: 5rem;
+    align-items: center;
+    margin-top: 2rem;
     margin-left: 7rem; 
 }
 
+h1 {
+    color: rgb(61, 60, 60);
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
 
+.container_2 {
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 100%;
+    height:100vh;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 5px; 
+}
+
+.container_2 h3 {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
